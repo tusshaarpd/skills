@@ -2,7 +2,7 @@
 
 Two skill sets in one repo:
 
-1. **MAANG Interview Coach** — 15 skills that turn Claude Code into a PM / TPM interview coach calibrated to Meta, Amazon, Apple, Netflix, Google (and Microsoft) loops.
+1. **MAANG Interview Coach** — 16 skills that turn Claude Code into a PM / TPM interview coach calibrated to Meta, Amazon, Apple, Netflix, Google (and Microsoft) loops.
 2. **The Minimalist Entrepreneur** — 10 business-judgment skills based on [Sahil Lavingia's book](https://www.minimalistentrepreneur.com/), forked from [slavingia/skills](https://github.com/slavingia/skills) (MIT).
 
 ## Installation
@@ -44,6 +44,7 @@ Start with `/interview-coach` — it sets up your profile (role, level, target c
 | `/grade-answer` | Paste any answer, transcript, or written exercise → rubric scorecard, model answer, rewrite |
 | `/interview-debrief` | Debrief a real interview within 24 h; grade from memory, infer signals, adjust the plan; offer/leveling coaching |
 | `/strategist` | Personal strategist: turns "money, fame, luck" into concrete targets, finds the real bottleneck, ranked tactics with exact moves, tracks commitments and calls you out |
+| `/decision-maker` | Decision partner: real question, all options incl. the one you missed, facts with sources, your own track record, gut/astrology as labeled input, traps, one recommendation with odds, what would change it, first step; logs decisions for later review |
 | `/daily-reflection` | 2-minute evening check-in that builds judgment: what you predicted, what happened, why the gap; weekly pattern review and a build-in-public nudge |
 | `/speaking-coach` | Speak with confidence: 6-week plan, daily 5-min out-loud drills (record in Sound Recorder → local Whisper transcription with filler/pace analysis), prepare and rehearse leadership presentations with tough Q&A, calm-down routine |
 
