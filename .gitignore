@@ -1,0 +1,5 @@
+# Never commit private state
+context.md
+astro.md
+profile.md
+*.private.md
