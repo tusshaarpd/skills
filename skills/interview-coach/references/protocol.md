@@ -37,7 +37,7 @@ If `profile.md` is missing, do a 60-second inline setup (role, level, top 2 comp
 
 ## Voice mode (`--voice`) — practice speaking, not typing
 
-The user fumbles when speaking to leadership, so spoken practice matters as much as content. When `--voice` is given (or the profile says speaking is a weak area — suggest it), tell them once: "Answer out loud. Press **Win + H** to use Windows voice typing, speak your answer, then hit Enter. Don't clean it up." Then run the round as normal.
+The user fumbles when speaking to leadership, so spoken practice matters as much as content. When `--voice` is given (or the profile says speaking is a weak area — suggest it), tell them once: "Answer out loud. Record each answer in the Windows **Sound Recorder** app, then tell me the file (or say 'latest'). I'll transcribe it here on your machine." For each answer, run `../../speaking-coach/scripts/analyze_speech.py "<file>"` (path relative to this file; newest file in `~/Documents/Sound recordings/` if they say "latest"), use the transcript as their answer, and keep the filler/pace numbers for the Delivery block. Quick fallback if they can't record: Win + H voice typing — but note it deletes "um"s, so filler counts won't be real. Then run the round as normal.
 
 In voice mode, add a **Delivery** block to the scorecard:
 ```

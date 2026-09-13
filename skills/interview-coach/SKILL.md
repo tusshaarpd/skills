@@ -45,7 +45,7 @@ What do you want to do?
 16. Speaking confidence — presentations, fumbling, nerves → /speaking-coach
 
 Reply with a number (or tell me the company too, e.g. "4 meta").
-Tip: add "voice" to any practice (e.g. "4 meta voice") to answer out loud with Win + H.
+Tip: add "voice" to any practice (e.g. "4 meta voice") to answer out loud — record in Sound Recorder, I transcribe and count fillers.
 ```
 
 If they haven't set up a profile yet, say so in one line above the menu and suggest option 1 first.

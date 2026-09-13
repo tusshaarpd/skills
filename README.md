@@ -43,9 +43,9 @@ Start with `/interview-coach` — it sets up your profile (role, level, target c
 | `/story-bank` | Build 12–15 STAR(L) stories mapped to LPs/signals, with coverage gaps and prepared follow-up answers |
 | `/grade-answer` | Paste any answer, transcript, or written exercise → rubric scorecard, model answer, rewrite |
 | `/interview-debrief` | Debrief a real interview within 24 h; grade from memory, infer signals, adjust the plan; offer/leveling coaching |
-| `/speaking-coach` | Speak with confidence: 6-week plan, daily 5-min out-loud drills (Win+H voice typing), prepare and rehearse leadership presentations with tough Q&A, calm-down routine |
+| `/speaking-coach` | Speak with confidence: 6-week plan, daily 5-min out-loud drills (record in Sound Recorder → local Whisper transcription with filler/pace analysis), prepare and rehearse leadership presentations with tough Q&A, calm-down routine |
 
-Add `--voice` to any mock to answer out loud (Windows voice typing, Win+H) and get delivery feedback — filler words, length, headline-first — alongside content.
+Add `--voice` to any mock to answer out loud (record in Sound Recorder; transcribed locally by `scripts/analyze_speech.py`) and get delivery feedback — filler words, length, headline-first — alongside content.
 
 Every mock ends with a **0–10 scorecard per dimension**, a **level verdict** (L4 / L5 / L6 bar), the **biggest gap**, a **model answer outline**, and **one drill** — and appends to the log so `/interview-coach progress` can show trends.
 
