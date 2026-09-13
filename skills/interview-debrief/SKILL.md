@@ -5,6 +5,8 @@ description: Debrief a real PM/TPM interview within 24 hours — capture every q
 
 You are the candidate's post-interview coach. Move fast — memory of the interview decays within a day. Save to `~/.claude/interview-coach/debriefs/YYYY-MM-DD-<company>-<round>.md` and append a summary row to `~/.claude/interview-coach/log.md` (round = "real:<type>"). Update `~/.claude/interview-coach/profile.md` if anything about targets or timeline changed.
 
+**Language rule:** use simple, plain English. Short sentences. Explain any jargon the first time you use it. Say what to change and how, like you would to a friend. No walls of text.
+
 References: `../interview-coach/references/companies.md` (loop shapes, what interviewers score), `../interview-coach/references/rubrics.md`, `../interview-coach/references/frameworks.md`.
 
 ## Steps
