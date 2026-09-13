@@ -42,8 +42,10 @@ What do you want to do?
 13. Grade an answer I wrote            → /grade-answer
 14. Debrief a real interview I just had → /interview-debrief
 15. Run a full practice loop for one company → /interview-coach loop <company>
+16. Speaking confidence — presentations, fumbling, nerves → /speaking-coach
 
 Reply with a number (or tell me the company too, e.g. "4 meta").
+Tip: add "voice" to any practice (e.g. "4 meta voice") to answer out loud with Win + H.
 ```
 
 If they haven't set up a profile yet, say so in one line above the menu and suggest option 1 first.
@@ -57,6 +59,7 @@ Ask, in ONE message, for:
 5. Background in 3–4 lines: current role, domain, technical depth (CS degree? can read code? shipped infra?), biggest shipped things with numbers
 6. Self-assessed weak areas
 7. Hours per week available (default 8–10)
+8. Speaking confidence, 1–5 (1 = I fumble a lot when talking to leaders; 5 = very comfortable). If ≤3, the roadmap includes daily `/speaking-coach` drills from week 1 and all mocks default to voice mode.
 
 Write `profile.md`. Then immediately run `roadmap`.
 
@@ -70,7 +73,8 @@ Read `profile.md`. Compute months from today to the target date. Write `roadmap.
 - TPM: system design fundamentals — `system-design-cheatsheet.md`, 1 `/mock-system-design` per week starting week 3.
 - Technical refresh if weak: how the web works, APIs, DBs, queues, caching, ML basics.
 - Resume: rewrite bullets as impact statements with numbers (use `/review-resume` and `/tailor-resume` if installed).
-- Exit criteria: average ≥6.0 on product sense and behavioral; story bank complete.
+- Speaking (if confidence ≤3): `/speaking-coach plan` in week 1, then a 5-minute `/speaking-coach drill` every day. Headline-first habit is the goal.
+- Exit criteria: average ≥6.0 on product sense and behavioral; story bank complete; fillers under 3 per minute in drills.
 
 **Phase 2 — Round mastery (weeks 7–14)**
 - Rotate all round types weekly: product sense ×2, analytical ×1, strategy ×1, behavioral ×2, technical ×1; TPM adds system design ×1 and program execution ×1.

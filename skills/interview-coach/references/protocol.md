@@ -35,6 +35,19 @@ If `profile.md` is missing, do a 60-second inline setup (role, level, top 2 comp
 - Track time by exchange count. Roughly: 45-min round ≈ 8–10 exchanges. At ~70% say "We've got about 10 minutes left — let's start wrapping up." At the end, "That's time."
 - Never reveal the rubric mid-round. Never say "good" or "great" mid-round — real interviewers are neutral.
 
+## Voice mode (`--voice`) — practice speaking, not typing
+
+The user fumbles when speaking to leadership, so spoken practice matters as much as content. When `--voice` is given (or the profile says speaking is a weak area — suggest it), tell them once: "Answer out loud. Press **Win + H** to use Windows voice typing, speak your answer, then hit Enter. Don't clean it up." Then run the round as normal.
+
+In voice mode, add a **Delivery** block to the scorecard:
+```
+Delivery: Fillers: 9 (um ×5, like ×3, so ×1) · Length: ~3 min (aim ≤2.5) · Headline first? No · Restarts: 2
+One delivery fix: Start with the answer in one sentence, then pause.
+```
+Also add Delivery to the log row's "biggest gap" if it was the weakest part. If fillers are high across 3 sessions, recommend `/speaking-coach drill`.
+
+Even without `--voice`, note in every scorecard whether the answer started with a headline (the answer in one sentence) — this is the single habit that fixes fumbling.
+
 ## Written mode
 
 If the user says `--written` or pastes a full answer, skip the live back-and-forth: read the answer, ask 2–3 follow-up probes in one message, wait for the reply, then score.
