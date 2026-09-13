@@ -1,10 +1,10 @@
 {
-  "name": "minimalist-entrepreneur",
-  "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia. Frameworks for building a profitable, sustainable business starting from community.",
-  "version": "1.0.0",
+  "name": "pm-skills",
+  "description": "MAANG PM/TPM interview coach (mock rounds, rubrics, story bank, debriefs) plus The Minimalist Entrepreneur business frameworks by Sahil Lavingia.",
+  "version": "1.1.0",
   "author": {
-    "name": "Sahil Lavingia"
+    "name": "Tusshaar Prasad"
   },
-  "repository": "https://github.com/slavingia/skills",
+  "repository": "https://github.com/tusshaarpd/skills",
   "license": "MIT"
 }
