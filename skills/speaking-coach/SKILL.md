@@ -42,6 +42,7 @@ Speaking coach — what do you want to do?
 5. Calm-down routine before a big meeting (2 minutes)
 6. Review a real presentation I just gave
 7. See my progress
+8. Resources — Toastmasters, apps, books, speaking shapes
 
 Reply with a number.
 ```
@@ -51,7 +52,8 @@ Ask 4 quick questions in ONE message: (a) When do you fumble most — start, whe
 
 Then write a plan to `speaking.md` with this shape, adapted to their answers:
 
-- **Week 1 — Headline first.** Every answer starts with the one-sentence answer. Then "because…" with 2–3 reasons. Then stop. Drill: 5 questions a day, 30 seconds each.
+- **Week 0 (this week) — Sign up for Toastmasters.** Find a club (https://www.toastmasters.org/find-a-club), visit as a guest, join, and ask for Table Topics every meeting. Weekly, for the whole plan. This is the single highest-value thing in the plan — real faces, real nerves, every week.
+- **Week 1 — Headline first.** Every answer starts with the one-sentence answer. Then "because…" with 2–3 reasons. Then stop. Drill: 5 questions a day, 30 seconds each, recorded and analyzed. On days away from the laptop, use Impromptly or Yoodli on the phone.
 - **Week 2 — Slow down and pause.** Practice a full 2-second pause instead of "um". Speak at 70% of your natural speed. Drill: same as week 1, count fillers, aim for half.
 - **Week 3 — Prepared openings.** Build 5 "go-to" sentences you can say on autopilot: how you open, how you buy time ("Good question — let me think for a second"), how you say you don't know, how you handle an interruption, how you close. Memorize them. Fumbling mostly happens in the first 10 seconds; scripted openings remove that.
 - **Week 4 — Structure under pressure.** Drills where I interrupt or ask something unexpected. Practice: pause → repeat the question in your words → headline → reasons.
@@ -63,12 +65,13 @@ Add the *why*: fumbling is usually not a speaking problem — it's a **structure
 ### 2. `drill` — today's 5-minute drill
 Pick the drill for the current week (read `speaking.md`). Give ONE question at a time. Ask them to record (Sound Recorder), then tell you the file (or "latest"). Run `scripts/analyze_speech.py` on it and turn the numbers into feedback. Good drill questions:
 
-**Impromptu mode** (`drill impromptu`, for fluent thinking on your feet — Toastmasters "Table Topics" style): give a random topic they can't prepare for — "Is remote work good for junior people?", "Convince me to try your favorite app", "What's a rule at work you'd remove?", "Describe your morning to a Martian". 15 seconds to think, 60 seconds to speak. Teach the PREP shape for impromptu answers: **P**oint (one sentence) → **R**eason → **E**xample → **P**oint again. That shape is what makes impromptu answers sound fluent — they're never wondering what comes next.
 - "Explain what you do at work in 30 seconds."
 - "Your project is 2 weeks late. Tell your VP in 3 sentences."
 - "What's one thing your product should stop doing? Why?"
 - "A leader asks: why should we fund this? Answer in 30 seconds."
 - Random PM questions from `../interview-coach/references/question-bank.md`, shortened to 30–60 second answers.
+
+**Impromptu mode** (`drill impromptu`, for fluent thinking on your feet — Toastmasters "Table Topics" style): give a random topic they can't prepare for — "Is remote work good for junior people?", "Convince me to try your favorite app", "What's a rule at work you'd remove?", "Describe your morning to a Martian". 15 seconds to think, 60 seconds to speak. Teach the PREP shape for impromptu answers: **P**oint (one sentence) → **R**eason → **E**xample → **P**oint again. That shape is what makes impromptu answers sound fluent — they're never wondering what comes next. Once PREP is automatic (about 2 weeks), rotate in the other shapes from `references/resources.md`: What / So what / Now what (updates), Past / Present / Future (about yourself), Problem / Solution / Benefit (pitching).
 
 After each answer (dictated), give feedback in this exact simple format:
 ```
@@ -107,6 +110,12 @@ Ask: what went well, where did you fumble, what question threw you, what did the
 
 ### 7. `progress`
 Read the log. Show filler count over time, drills done per week, presentations delivered. One honest paragraph: what's clearly improving, what isn't yet, and the single next step.
+
+### 8. `resources`
+Read `references/resources.md` and give the short version: Toastmasters first (with the find-a-club link and why), then the three phone apps, then one book. Say clearly that no good open-source repo exists and the local analyzer covers it. Keep it under 15 lines.
+
+## Reference file
+`references/resources.md` — Toastmasters, phone apps (Impromptly, Orai, Yoodli), books, the impromptu answer shapes (PREP, What/So what/Now what, Past/Present/Future, Problem/Solution/Benefit), and the rules of thumb. Read it when building the plan or when the user asks what else to use.
 
 ## Rules
 - One fix per drill. Not five.
