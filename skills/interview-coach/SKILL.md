@@ -44,6 +44,7 @@ What do you want to do?
 15. Run a full practice loop for one company → /interview-coach loop <company>
 16. Speaking confidence — presentations, fumbling, nerves → /speaking-coach
 17. 2-minute evening reflection (build judgment)  → /daily-reflection
+18. Big-picture strategist — money, reputation, luck → /strategist
 
 Reply with a number (or tell me the company too, e.g. "4 meta").
 Tip: add "voice" to any practice (e.g. "4 meta voice") to answer out loud — record in Sound Recorder, I transcribe and count fillers.
